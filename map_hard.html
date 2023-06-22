@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <title>Map - Hard Level</title>
+</head>
+
+<body>
+    <div id="game-container">
+        <div id="scoreboard">
+            <a href="index.html"><img src="img/arrow.png" alt="Back" id="back-arrow"></a>
+            <span id="total-wally-count">Загальна кількість Воллі: 7</span>
+            <img src="img/wally2.png" alt="Wally" id="wally-icon">
+            <span id="found-wally-count">Знайдено Воллі: 0</span>
+            <span id="timer">Час: 0:30</span>
+        </div>
+        <div id="game-over" class="hidden">
+            <div id="game-over-message-container">
+                <h2 id="game-over-message"></h2>
+                <div id="button-container">
+                    <button id="restart-button">Розпочати знову</button>
+                    <button id="next-level-button">Next Level</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-map">
+        <img src="img/map_hard.jpeg" alt="Map" id="map">
+    </div>
+
+    <script src="map_hard.js"></script>
+</body>
+
+</html>
